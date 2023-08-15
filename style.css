@@ -10,8 +10,7 @@
 }
 .card {
     text-align: center;
-    padding: 1px 1px 10px 1px;
-    
+    padding: 1px 1px 10px 1px;    
 }
 .bgimage {
     height: 100vh;
@@ -26,27 +25,34 @@
     text-align: center;
 }
 .card:hover .servicesIcon {
-    color: #474040;
+    color: #744a2e;
 }   
 .cardText {
-    text-align: center;
-  
+    text-align: center;  
 }
 .cardText2 {
     text-align: left;
     padding-left: 3px;
-       
 }
 .cardText3 {
     text-align: justify;
     padding-left: 150px;
     padding-top: 9px;
-
-
-   
-       
 }
-
+footer{
+    background-color: #69492e;
+}
+.footerDev {
+    font-size: x-small;
+    text-align: center;
+    line-height: 3px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+} 
+.footerDev > img {
+    width: 120%;
+    padding-left: 10px;
+} 
 .heroTitle {
     font-size: 4.5rem;
 }
@@ -62,40 +68,73 @@
     color:white;
     text-shadow: 4px 4px 6px #502e13;
 }
+.linkText{
+    color: white;
+}
+.logo{
+    width: 30%;
+    border-radius: 50%;
+    text-align: center;
+}
 .nav-item {
     font-size: larger;
 }
-
 .navbar {
     background-color:#74452a;
 }    
 .navbar a{
-    color: #c0a598;
+    color: #dbbdae;
     padding: 0,5rem;
 }
 .navbar:hover {
-    background-color: rgb(167, 108, 40);
-    color: rgb(75, 44, 16);
+    background-color: rgb(95, 59, 17);
+    color: rgb(66, 37, 12);
     border-radius: 4px;
 }
+#portfolio {
+    background-color: rgb(42, 94, 143);
+} 
 .order{
     background-color: #502e13;
 }
 .servicesIcon {
-    height: 36px;
+    font-size: 1.5rem;
     text-align: left;
     width: 100%;
+    color: rgb(131, 88, 47);
 }
 .servicesIcon2 {
-    height: 36px;
+    font-size: 1.6rem;
     text-align: center;
     width: 100%;
-    color: black;
+    color: rgb(131, 88, 47);
 }
 .servicesIcon2:hover {
-    width: 20px;
-    color: rgb(165, 71, 42);
-
+    font-size: 2rem;
+    color: rgb(95, 64, 34);
+}
+.servicesIcon3 {
+    font-size: 1.6rem;
+    text-align: left;
+    width: 100%;
+    color: rgb(131, 88, 47);
+}
+.servicesIcon3:hover {
+    font-size: 2rem;
+    text-align: left;
+    width: 100%;
+    color: rgb(88, 61, 35);
+}
+.servicesIcon4 {
+    text-align: center;
+    width: 100%;
+    font-size: 1.6rem;
+    color: #946c5a;    
+}
+.servicesIcon4:hover {
+    width: 100%;
+    font-size: 2rem;
+    color: #644435;    ;
 }
 .servicesIconOrder {
     text-align: center;
@@ -111,4 +150,7 @@
     padding: 0 1rem;
     text-align: left ;
     border-radius: 4px ;
+}
+#sobre {
+    background-color: rgb(221, 212, 87);
 }
