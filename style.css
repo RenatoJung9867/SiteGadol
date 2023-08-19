@@ -5,7 +5,7 @@
     padding: 5rem 0;
 }
 .aboutImage {
-    width: 80%;
+    width: 65%;
     border-radius: 50%;
 }
 .bgimage {
@@ -168,7 +168,7 @@ h2 {
     background-color: rgb(228, 227, 214);
     text-indent: 40px;
     text-align: justify;
-    font-size: large;
+    font-size: larger;
 }
 .textContact{
     color: white;
