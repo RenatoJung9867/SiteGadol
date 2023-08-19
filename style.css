@@ -18,14 +18,22 @@
     text-align: center;
     padding: 1px 1px 10px 1px;    
 }
+
 .cardBody{
     padding: 3px; 
-    border: #502e13 2pix;
+    background-color: #ffffff;
+}
+.cardBody2{
+    padding: 3px; 
+    background-color: #336daf;
 }
 .cardTitle {
     text-align: center;
 }
-   
+.cardTitle2, .cardText4 {
+    color: #ffffff;
+    text-align: center;
+}   
 .cardText {
     text-align: center;
      
@@ -40,9 +48,9 @@
     padding-top: 9px;
     font-style: oblique; 
 }
-#competencias {
-    border-bottom: ;
-    border-top:
+#competencias h2{
+   color: #132b75; 
+   text-shadow: 4px 4px 6px #2b518b;
 } 
 #contato{
     background-color: rgba(193, 223, 212, 0.466);
@@ -106,10 +114,10 @@ h2 {
     border-radius: 4px;
 }
 #portfolio {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(83, 67, 54);
 }
 #portfolio h2 {
-    color: rgb(238, 236, 150);
+    color: rgb(223, 222, 208);
     text-shadow: 4px 4px 6px #ada131;
 }
 .servicesIcon {
@@ -159,18 +167,17 @@ h2 {
 .servicesText {
     height: 280px;
     cursor: pointer;
-    padding: 0 1rem;
     text-align: left ;
     border-radius: 4px ;
 }
 .servicesText:hover {
-    border:#502e13 2px solid;
-    box-shadow: 4px 6px #a08b7a;
+    border:#233469 2px solid;
+    box-shadow: 4px 6px #81a0e4;
 }
 
 #sobre {
     background-color: rgb(228, 227, 214);
-    text-indent: 40px;
+    text-indent: 45px;
     text-align: justify;
     font-size: larger;
 }
